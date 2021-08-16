@@ -4,7 +4,6 @@
     @version v0.0.1 Agosto/2021
     @author LUCAS, Rosivaldo
 **/
-
 #include <stdio.h>
 #include <math.h>
 
