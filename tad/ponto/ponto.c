@@ -2,6 +2,12 @@
 #include <math.h>
 #include "ponto.h"
 
+// outra forma de implementar as operacoes do TAD Ponto
+// struct ponto {
+//     float x;
+//     float y;
+// };
+
 struct ponto {
     float coordenadas[1];
 };
