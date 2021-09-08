@@ -53,7 +53,7 @@ int pto_setar(Ponto *ponto, float x, float y) {
 
 float pto_calcular_distancia(Ponto *p, Ponto *q) {
     if (p == NULL || q == NULL) {
-        return 0;
+        return -1.0f;
     }
     
     float diferenca_x = p->coordenadas[0] - q->coordenadas[0];
