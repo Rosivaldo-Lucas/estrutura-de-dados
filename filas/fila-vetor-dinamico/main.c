@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fila_vetor_dinamico.h"
+#include "../fila_lista_encadeada/fila_lista_encadeada.h"
 
 int main(void) {
     int i, x;
@@ -23,6 +23,13 @@ int main(void) {
         f_remove(f, &x);
         printf("%d ", x);
     }
+
+    printf("\ntam = %d\n", f_size(f));
+
+    if (f_is_empty(f))
+        printf("vazia\n");
+    else
+        printf("nao vazia\n");
 
     f_libera(f);
 
