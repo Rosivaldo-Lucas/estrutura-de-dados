@@ -56,3 +56,9 @@ int f_is_full(fila_t *f) {
 
     return f->total == TAM_FILA;
 }
+
+int f_size(fila_t *f) {
+    if (f == NULL) return -1;
+
+    return f->total;
+}

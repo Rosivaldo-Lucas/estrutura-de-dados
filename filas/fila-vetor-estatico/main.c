@@ -11,6 +11,8 @@ int main(void) {
         f_inserir(f, i);
     }
 
+    printf("tam = %d\n", f_size(f));
+
     f_remover(f, &x);
     f_remover(f, &x);
 

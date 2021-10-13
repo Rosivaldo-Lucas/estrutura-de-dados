@@ -11,5 +11,6 @@ int f_remover(fila_t *f, int *elem);
 
 int f_is_empty(fila_t *f);
 int f_is_full(fila_t *f);
+int f_size(fila_t *f);
 
 #endif
